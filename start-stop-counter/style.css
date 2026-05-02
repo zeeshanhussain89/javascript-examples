@@ -1,0 +1,28 @@
+.container {
+  width: 50%;
+  margin: 200px auto;
+  border: 2px solid black;
+  padding: 3rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: steelblue;
+}
+#content {
+  font-size: 2rem;
+}
+
+.controls {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
